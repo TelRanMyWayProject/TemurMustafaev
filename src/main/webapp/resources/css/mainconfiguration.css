@@ -1,0 +1,33 @@
+@CHARSET "ISO-8859-1";
+body {
+	min-width: 40%;
+    background-color:aquamarine;
+}
+div.panel{
+	float:left;
+    margin-left: 35%;
+}
+div#tasksPanel{
+     margin-left:10%;
+     float:left;
+}
+form .ng-invalid-required.ng-dirty {
+  background-color: lightpink;
+}
+form .ng-invalid-email.ng-dirty {
+  background-color: lightgoldenrodyellow;
+}
+form .ng-valid.ng-dirty {
+  background-color: lightgreen;
+}
+span.summary.ng-invalid {
+   color: red;
+   font-weight: bold;
+}
+span.summary.ng-valid {
+   color: green;
+}
+div.error {
+   color: red;
+   font-weight: bold;
+}
